@@ -1,0 +1,16 @@
+/* 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+ */
+
+.box{
+    background-color: green;
+    min-height: 100px;
+    border: 1px solid black;
+    color: white;
+}
