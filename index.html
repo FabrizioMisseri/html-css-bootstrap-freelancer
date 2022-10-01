@@ -17,58 +17,48 @@
     <!-- HEADER -->
     <header>
 
-        <nav class="container">
+        <div class="container">
 
-            <div class="row">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">
+                        START BOOTSTRAP
+                    </a>
 
-                <!-- PARTE SX -->
-                <div class="col-6">
-                <a class="text-white" href="start">Start Bootstrap</a>
-                </div>
-                <!-- / PARTE SX -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- PARTE DX -->
-                <div class="col-6 text-white">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
 
-                    <!-- lista link nav -->
-                    <div class="d-none d-md-block text-white">
-                        <ul class="d-flex justify-content-end">
-
-                            <li><a href="#start">
-                                Portfolio
-                            </a></li>
-
-                            <li><a href="#about">
-                                About
-                            </a></li>
-
-                            <li><a href="#contacts">
-                                Contact
-                            </a></li>
-
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="#portfolio">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#contacts">
+                                    Contact
+                                </a>
+                            </li>
+                        
                         </ul>
                     </div>
-                    <!-- / lista link nav -->
-
-
-                    <!-- buttone hamburger menu -->
-                    <div class="d-flex justify-content-end">
-                        <button class="d-md-none" >
-                            push it
-                        </button>
-                    </div>
-                    <!-- / buttone hamburger menu -->
-                
                 </div>
-                <!-- / PARTE DX -->
+            </nav>
 
-            </div>
-        
-        </nav>
+        </div>
 
     </header>
     <!-- / HEADER -->
 
+    <main>
 
     <!-- START BOOTSTRAP -->
     <section id="start">
@@ -315,6 +305,7 @@
     </section>
     <!-- / CONTACTS -->
 
+    </main>
 
     <!-- FOOTER -->
     <footer class="text-white">

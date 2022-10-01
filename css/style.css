@@ -8,17 +8,10 @@ $container-max-widths: (
 );
  */
 
- img{
+/* RESET */
+
+img{
     max-width: 100%;
-}
-
-header{
-    background-color: #2C3E50;
-    height: 50px;
-}
-
-header nav{
-    line-height: 50px;
 }
 
 a{
@@ -36,17 +29,9 @@ span{
     vertical-align: middle;
 }
 
-header nav ul li{
-    margin-left: 1rem;
-}
 
-section{
-    padding: 2rem 0;
-}
 
-#start , #about{
-    background-color: #1ABC9C;
-}
+/* COMMON */
 
 .barra{
     height: 3px;
@@ -64,10 +49,45 @@ section{
     max-width: 35%;
 }
 
+
+
+/* HEADER */
+
+header{
+    background-color: #2C3E50;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul li{
+    margin-left: 1rem;
+}
+
+
+
+/* MAIN */
+
+main{
+    padding-top: 50px;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+#start , #about{
+    background-color: #1ABC9C;
+}
+
 .box-centrale .barra,
 #about .barra{
     background-color: white;
 }
+
+
+/* FOOTER */
 
 #footer-top{
     background-color: #3A546D;
