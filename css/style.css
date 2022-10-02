@@ -142,10 +142,9 @@ section{
 #footer-top .ms_circle{
     border: 1px solid white;
     border-radius: 100%;
-    line-height: 2.4rem;
-    width: 2.4rem;
-    height: 2.4rem;
+    line-height: 2rem;
+    width: 2rem;
+    height: 2rem;
     text-align: center;
-    padding: auto;
     vertical-align: middle;
 }
